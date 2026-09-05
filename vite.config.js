@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 import { fileURLToPath } from 'url'
-
+base: '/my-website/',
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
