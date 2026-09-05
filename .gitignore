@@ -1,3 +1,7 @@
+git add .
+git commit -m "Initial project"
+git push origin main
+
 # Logs
 logs
 *.log
